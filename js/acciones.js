@@ -6,8 +6,9 @@ $(document).ready(function(e){
 		navigator.notification.beep(1);
 	});//Tap del beep
     $('#vibrar').tap(function(){
-		navigator.notification.beep(1000);
-	});//Tap del beep	
+		navigator.notification.vibrate(1000);
+	});//Tap del vibrador
+		
 	
 	},false); //deviceready
 });//ready
